@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { StockOverviewPage } from "./pagrs/StockOverviewPage";
-import { StockDetailPage } from "./pagrs/StockDetailPage";
+import { StockOverviewPage } from "./pages/StockOverviewPage";
+import { StockDetailPage } from "./pages/StockDetailPage";
 import {WatchListContextProvider} from "./context/watchlistContext"
 
 function App() {

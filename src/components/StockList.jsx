@@ -84,7 +84,7 @@ const StockList = () => {
                                     )}`}
                                 >
                                     {stockData.data.dp}
-                                    {renderIcon(stockData.data.d)}
+                                    {renderIcon(stockData.data.dp)}
                                 </td>
                                 <td>{stockData.data.h}</td>
                                 <td>{stockData.data.l}</td>
