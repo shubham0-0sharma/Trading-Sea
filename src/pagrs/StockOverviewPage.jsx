@@ -1,10 +1,10 @@
 
-import AutoComlete  from "../components/AutoComlete";
+import AutoComplete  from "../components/AutoComplete";
 import StockList from "../components/StockList";
 export const StockOverviewPage = () => {
     return (
         <div>StockOverviewPage
-            <AutoComlete/>
+            <AutoComplete/>
             <StockList/>
 
         </div>
